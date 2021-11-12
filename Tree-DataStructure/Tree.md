@@ -25,9 +25,15 @@ perfect binary tree：各層節點全滿，同時為 full binary tree、complete
 * 右邊 subtree 永遠大於自己，左邊的 subtree 永遠小於自己。
 * 若不平衡的話，就等於在操作 linked list，時間複雜度會變成 $O(log n)$ 。所以需要 AVL tree、red black tree 等等自動平衡的樹。
 
-## AVL Tree/Red Black Tree
+## AVL Tree/Red-Black Tree
 
 插入時會進行 rotate。自動將高度平衡，而不會形成左傾或右傾樹。
+
+[AVL Tree](https://www.cs.usfca.edu/~galles/visualization/AVLtree.html)  
+[How It Works](https://medium.com/basecs/the-little-avl-tree-that-could-86a3cae410c7)
+
+[Red-Black Tree](https://www.cs.usfca.edu/~galles/visualization/RedBlack.html)  
+[How It Works](https://medium.com/basecs/painting-nodes-black-with-red-black-trees-60eacb2be9a5)
 
 ## Binary Heap
 
