@@ -52,12 +52,14 @@ class Stack {
   }
 }
 
-const myStack = new Stack()
-myStack.pop()
-console.log(myStack.peek())
-console.log(myStack.isEmpty())
-myStack.push('google').printStack().push('trello').push('discord').printStack()
-console.log('')
-console.log(myStack.peek())
-myStack.pop()
-myStack.printStack()
+// const myStack = new Stack()
+// myStack.pop()
+// console.log(myStack.peek())
+// console.log(myStack.isEmpty())
+// myStack.push('google').printStack().push('trello').push('discord').printStack()
+// console.log('')
+// console.log(myStack.peek())
+// myStack.pop()
+// myStack.printStack()
+
+module.exports = Stack

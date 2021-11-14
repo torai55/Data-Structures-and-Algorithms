@@ -1,6 +1,6 @@
 # Data-Structures-and-Algorithms
 
-exercises and notes for data structure and algorithm
+資料結構與演算法的練習、筆記。
 
 ## Complexity
 

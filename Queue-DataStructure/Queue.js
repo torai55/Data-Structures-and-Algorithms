@@ -61,10 +61,12 @@ class Queue {
   }
 }
 
-const myQueue = new Queue()
-console.log(myQueue.peek())
-myQueue.enqueue('gg').enqueue('ez').printQueue()
-console.log('')
-console.log(myQueue.dequeue())
-myQueue.dequeue()
-myQueue.printQueue()
+// const myQueue = new Queue()
+// console.log(myQueue.peek())
+// myQueue.enqueue('gg').enqueue('ez').printQueue()
+// console.log('')
+// console.log(myQueue.dequeue())
+// myQueue.dequeue()
+// myQueue.printQueue()
+
+module.exports = Queue

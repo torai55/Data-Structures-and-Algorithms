@@ -2,11 +2,11 @@ const numbers = [99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0]
 
 /**
  * 排好 pivot 後將原陣列切割成兩個小陣列，遞迴呼叫自身
- * 遞迴終點：如果陣列長度只有 1(left === right) 等於排序好的陣列，直接回傳
+ * 遞迴終點：如果陣列長度只有 1(left === right) 等於排序好的陣列，直接回傳 array
  * 會改變原陣列
- * @param {array} array
- * @param {number} left
- * @param {number} right
+ * @param {array} array - 待排序的 array
+ * @param {number} left - array 最左邊的 index
+ * @param {number} right - array 最右邊的 index
  * @returns {array} - 排序好的 array
  */
 function quickSort(array, left, right) {
@@ -52,6 +52,5 @@ function swap(array, index1, index2) {
   array[index2] = temp
 }
 
-//Select first and last index as 2nd and 3rd parameters
 quickSort(numbers, 0, numbers.length - 1)
 console.log(numbers)

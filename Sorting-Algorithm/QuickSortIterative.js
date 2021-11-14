@@ -1,11 +1,12 @@
 const numbers = [99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0]
 
 /**
- * 
- * @param {array} array 
- * @param {number} left 
- * @param {number} right 
- * @returns 
+ * 利用 stack 的特性模擬系統堆疊
+ * 會改變原陣列
+ * @param {array} array - 待排序的 array
+ * @param {number} left - array 最左邊的 index
+ * @param {number} right - array 最右邊的 index
+ * @returns {array} array - 排序好的陣列
  */
 function quickSort(array, left, right) {
   let leftIndexStack = [left]  
@@ -61,6 +62,5 @@ function swap(array, index1, index2) {
   array[index2] = temp
 }
 
-//Select first and last index as 2nd and 3rd parameters
 quickSort(numbers, 0, numbers.length - 1)
 console.log(numbers)
