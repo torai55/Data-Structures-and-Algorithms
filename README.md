@@ -32,7 +32,7 @@
 
 ### 動態規劃法(Dynamic Programming Strategy)
 
-求最佳解。和各個擊破法類似，但子問題之間**非獨立**，互相分享解法。由下而上的方式(bottom-up)，解決子問題後把解答存入表格，爾後對於同類問題可透過查表避免重新求解。上層結果必參考下層，所以輸出一定是整體最佳解(Global Optimal Solution)。
+求最佳解。和各個擊破法類似，但子問題之間**非獨立**，互相分享解法。由下而上的方式(bottom-up)，解決子問題後把解答存入表格，爾後對於同類問題可透過查表避免重新求解，就像是 Divide & Conquer 加上 Memorization 的功能。上層結果必參考下層，所以輸出一定是整體最佳解(Global Optimal Solution)。
 
 ### 貪婪演算法(Greedy Strategy)
 
